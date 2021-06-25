@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/addons/p5.sound.min.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="head-container">
+      <h2 class="heading">Ping Pong Game</h2>
+      <h5 class="des">(One Player)</h5>
+    </div>
+    <div class="container">
+      <div class="ins-container">
+        <h2 class="ins-head">Instructions</h2>
+        <p class="ins">1) To Start the game press start.</p>
+        <p class="ins">2) To Restart the game press restart.</p>
+      </div>
+      <div class="ins-container">
+        <h2 class="ins-head">Rules</h2>
+        <p class="ins">1) Do not let any ball to fall.</p>
+        <p class="ins">2) At the score 80 one ball will be added.</p>
+        <p class="ins">3) At 120 you will win.</p>
+      </div>
+      <div class="note-container">
+        <h2 class="ins-head">Note</h2>
+        <p class="ins">
+          1) There is an Error in playing sometime so , please be aware when
+          ball bounces from right.
+        </p>
+      </div>
+      <div class="buttons-container">
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+
+    <div class="message-container">
+      <h3 class="message" id="message">Game Over</h3>
+      <h4 class="dis-score" id="score">Your Score is :</h4>
+    </div>
+    <script src="sketch.js"></script>
+    <script src="/game.js"></script>
+  </body>
+</html>
